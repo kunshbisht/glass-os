@@ -37,6 +37,7 @@ body {
 
 #dock {
   display: flex;
+  align-items: flex-start;
   position: absolute;
   padding: 20px;
   gap: 20px;
@@ -57,8 +58,8 @@ body {
 .app {
   flex: 1;
   width: 80px;
-  height: 80px;
-  border-radius: 10px;
+  aspect-ratio: square;
+  border-radius: calc(18.75%);
   transition: .3s ease-in-out flex;
 }
 

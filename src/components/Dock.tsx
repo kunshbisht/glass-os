@@ -19,8 +19,8 @@ export function Dock(props: {
 
   function appOnClick(app: AppConfig) {
     const position = {
-      left: Math.random() * innerWidth,
-      top: Math.random() * innerHeight
+      left: Math.random() * (innerWidth - app.size.width),
+      top: Math.random() * (innerHeight - app.size.height)
     }
     props.setWindows(prev => [
       ...prev,

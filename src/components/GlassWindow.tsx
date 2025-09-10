@@ -65,7 +65,7 @@ export function GlassWindow({ initialPosition, app }: GlassWindowProps) {
           ×
         </button>
       </header>
-      <div className="content">{app.component}</div>
+      <div className="content overflow-scroll">{app.component}</div>
     </div>
   );
 }

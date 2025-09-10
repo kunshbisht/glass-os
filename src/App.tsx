@@ -1,10 +1,12 @@
 import { useState, type JSX } from 'react';
 import { Dock } from './components/Dock';
-import { ClockApp } from './apps/Clock';
 import type { AppConfig } from './types/AppConfig';
+import { ClockApp } from './apps/Clock';
+import { TerminalApp } from './apps/Terminal';
 
 const apps: AppConfig[] = [
-  ClockApp
+  ClockApp,
+  TerminalApp
 ];
 
 export function App() {

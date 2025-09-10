@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+.font-code {
+	font-family: 'JetBrains Mono';
+	font-weight: bold;
+	color: #fff8;
+}
+
+.font-code * {
+	font-family: inherit;
+}
+
+input {
+	outline: none;
+}

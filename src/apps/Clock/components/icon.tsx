@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const r = 25;
 const dt = 15;
-const speed = 0.002;
+const speed = 0.0002;
 
 export default function Icon() {
 	const [angle, setAngle] = useState(0);
