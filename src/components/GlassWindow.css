@@ -1,0 +1,48 @@
+.window {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: #fff4;
+  box-shadow:
+    inset #0002 -2px -2px 2px,
+    inset #fff4 2px 2px 2px;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.window header {
+  background-color: #fff2;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+  text-shadow: #0008 0 0 1px;
+  z-index: 10;
+  user-select: none;
+  cursor: grab;
+}
+
+.window header:active {
+  cursor: grabbing;
+}
+
+.close-button {
+  position: absolute;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: #f00c;
+  border-radius: 10px;
+  box-shadow:
+    inset #0002 -2px -2px 2px,
+    inset #fff4 2px 2px 2px;
+  color: white;
+  cursor: pointer;
+}
+
+.window .content {
+  flex: 1;
+  position: relative;
+}
